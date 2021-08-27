@@ -14,10 +14,10 @@
 
 TRAJECTORY_BUILDER_2D = {
   use_imu_data = true,
-  min_range = 0.,
-  max_range = 30.,
-  min_z = -0.8,
-  max_z = 2.,
+  min_range = 0.3,
+  max_range = 100.,
+  min_z = 0.1,
+  max_z = 1.0,
   missing_data_ray_length = 5.,
   num_accumulated_range_data = 1,
   voxel_filter_size = 0.025,
